@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-link{
+    margin: 4px;
+    font-size: 1.5rem !important;
+    color: #f7fffc !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.nav-link:hover{
+    background-color: rgb(255,255,255);
+    color: black !important;
+    border-radius: 1.5rem !important;
+}
+
+.carousel-inner img{
+    height: 90vh;
+}
+
+.services-cols{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card img{
+    height: 30vh;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 30px gray;
+}
+
+.aboutMain{
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutMain > p{
+    font-size: 1.5rem;
+}
+
+.aboutImage{
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 10rem;
+}
+
+.aboutImage:hover{
+    /* box-shadow: -8px -10px 50px red; */
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.ContactUs{
+    padding: 5rem;
+    background-color: beige;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 15px gray;
+
+}
+
+.footerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
